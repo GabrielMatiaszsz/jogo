@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #fff0f5;
+  color: #333;
+}
+h1 {
+  margin-top: 20px;
+}
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 10px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.card {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border: 2px solid #ff99cc;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card.revealed {
+  background-color: #ffe6ea;
+}

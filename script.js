@@ -25,7 +25,6 @@ shuffled.forEach((symbol, index) => {
         matchedPairs++;
         first = null;
 
-        // ✅ Verifica se todas as cartas foram reveladas
         if (matchedPairs === cards.length / 2) {
           setTimeout(() => {
             alert("🎉 Parabéns, meu amor! Você ganhou um vale night comigo 🍕❤️ Vamos sair pra comer onde você quiser!");
